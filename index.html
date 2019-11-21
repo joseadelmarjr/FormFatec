@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>--Formulário Contato--</title>
+    <meta charset="utf-8" />
+    <link href="ContatoEstilo.css" rel="stylesheet" media="all" />
+    <script src="JavaScript1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ 
+</head>
+<body>
+    <form name="meu_form">
+ 
+        <h1>Entre em contato</h1>
+ 
+        <p class="nome">
+            <input type="text" id="nomeid" placeholder="Seu nome" required="required" name="nome" />
+            <label for="nome">Nome</label>
+        </p>
+        <p class="CPF">
+            <input type="text" id="CPFid" placeholder="XXX.XXX.XXX-XX" name="fone" />
+            <label for="CPF">CPF</label>
+ 
+        </p>
+        <p class="Endereco">
+            <input type="text" id="enderecoid" placeholder="Est Xxxx" name="fone" />
+            <label for="Endereco">Endereço</label>
+ 
+        </p>
+        <p class="telefone">
+            <input type="text" id="telefoneid" placeholder="(xx)xxxx-xxxx" name="telefone" />
+            <label for="telefone">Telefone</label>
+ 
+        </p>
+        <p class="dataNasc">
+            <input type="text" id="dataNascid" placeholder="XX/XX/XXXX" name="dataNasc" />
+            <label for="dataNasc">Data de nascimento</label>
+ 
+        </p>        
+        <p class="price">
+            <input type="text" id="priceid" placeholder="R$ 00,00" name="price" />
+            <label for="price">Price</label>
+ 
+        </p>
+        <p class="Email">
+            <input type="text" id="emailid" placeholder="email@email.com" name="email" />
+            <label for="email">Email</label>
+ 
+        </p>
+        <p class="model">
+            <input type="text" id="modelid" placeholder="Model" name="model" />
+            <label for="model">Model</label>
+ 
+        </p>
+        <p class="manufacturer">
+            <input type="text" id="manufacturerid" placeholder="xxxxxx" name="manufacturer" />
+            <label for="manufacturer">manufacturer</label>
+ 
+        </p>
+        <p class="feature">
+            <input type="text" id="featureid" placeholder="feature" name="feature" />
+            <label for="feature">Feature</label>
+ 
+        </p>
+
+        <p>
+            <textarea placeholder="Deixe sua opnião"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+ 
+    </form>
+</body>
+</html>
